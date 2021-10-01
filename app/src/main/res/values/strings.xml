@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">FefuExample</string>
+
+    <string name="barrier_description">Барьеры помогают избежать\nналожения элементов</string>
+
+    <string name="title_main_activity">Главная активность</string>
+
+    <string name="title_second_activity">Вторая активность</string>
+    <string name="label_second_activity">Вторая активность содержит разметку с красивой кастомной кнопкой</string>
+    <string name="action_second_activity">Открыть кнопку</string>
+
+    <string name="title_fragment_activity">Третья активность</string>
+    <string name="label_fragment_activity">Третья активность содержит два фрагмента с надписями</string>
+    <string name="action_fragment_activity">Открыть фрагменты</string>
+
+    <string name="label_call_intent">Неявный Intent со звонком</string>
+    <string name="action_call_intent">Позвонить в фефу</string>
+
+    <string name="hello_left_fragment">Left fragment!</string>
+    <string name="hello_right_fragment">Right fragment!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

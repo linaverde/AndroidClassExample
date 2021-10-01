@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/pkoro/AndroidStudioProjects/FefuExample/app/src/main/res/drawable/bg_gradient.xml" value="0.3638888888888889" />
+        <entry key="..\:/Users/pkoro/AndroidStudioProjects/FefuExample/app/src/main/res/drawable/bg_gradient_button.xml" value="0.3638888888888889" />
+        <entry key="..\:/Users/pkoro/AndroidStudioProjects/FefuExample/app/src/main/res/drawable/bg_gradient_common.xml" value="0.3638888888888889" />
+        <entry key="..\:/Users/pkoro/AndroidStudioProjects/FefuExample/app/src/main/res/drawable/bg_gradient_pressed.xml" value="0.3638888888888889" />
+        <entry key="..\:/Users/pkoro/AndroidStudioProjects/FefuExample/app/src/main/res/drawable/ic_splash.xml" value="0.3828125" />
+        <entry key="..\:/Users/pkoro/AndroidStudioProjects/FefuExample/app/src/main/res/layout-land/activity_fragment.xml" value="0.17372134038800705" />
+        <entry key="..\:/Users/pkoro/AndroidStudioProjects/FefuExample/app/src/main/res/layout-land/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/pkoro/AndroidStudioProjects/FefuExample/app/src/main/res/layout-land/activity_second.xml" value="0.17372134038800705" />
+        <entry key="..\:/Users/pkoro/AndroidStudioProjects/FefuExample/app/src/main/res/layout/activity_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/pkoro/AndroidStudioProjects/FefuExample/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/pkoro/AndroidStudioProjects/FefuExample/app/src/main/res/layout/activity_second.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/pkoro/AndroidStudioProjects/FefuExample/app/src/main/res/layout/barrier_example.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/pkoro/AndroidStudioProjects/FefuExample/app/src/main/res/layout/chain_example.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/pkoro/AndroidStudioProjects/FefuExample/app/src/main/res/layout/customization_example.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/pkoro/AndroidStudioProjects/FefuExample/app/src/main/res/layout/fragment_left.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/pkoro/AndroidStudioProjects/FefuExample/app/src/main/res/layout/fragment_right.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/pkoro/AndroidStudioProjects/FefuExample/app/src/main/res/layout/group_example.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
