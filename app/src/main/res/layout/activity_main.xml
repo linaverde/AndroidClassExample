@@ -111,6 +111,23 @@
                 android:layout_marginVertical="@dimen/default_margin_vertical"
                 android:backgroundTint="@color/colorRipple"
                 android:text="@string/action_grid" />
+
+            <TextView
+                android:id="@+id/tvEpoxy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/default_margin_horizontal"
+                android:layout_marginVertical="@dimen/default_margin_vertical"
+                android:text="@string/label_epoxy"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/btnEpoxy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/default_margin_vertical"
+                android:backgroundTint="@color/colorRipple"
+                android:text="@string/action_epoxy" />
         </androidx.appcompat.widget.LinearLayoutCompat>
     </ScrollView>
 

@@ -38,5 +38,9 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this@MainActivity, GridActivity::class.java))
         }
 
+        binding.btnEpoxy?.setOnClickListener {
+            startActivity(Intent(this@MainActivity, EpoxyActivity::class.java))
+        }
+
     }
 }

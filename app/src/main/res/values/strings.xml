@@ -50,5 +50,9 @@
         <item>Три</item>
     </string-array>
 
+    <string name="title_epoxy">EpoxyRecyclerView</string>
+    <string name="label_epoxy">Надстройка над RecyclerView</string>
+    <string name="action_epoxy">Открыть Epoxy</string>
+
 
 </resources>
