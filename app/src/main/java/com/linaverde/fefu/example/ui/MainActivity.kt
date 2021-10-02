@@ -1,4 +1,4 @@
-package com.linaverde.fefu.example
+package com.linaverde.fefu.example.ui
 
 import android.content.Intent
 import android.net.Uri
@@ -28,6 +28,14 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnCallIntent?.setOnClickListener {
             startActivity(Intent(Intent.ACTION_DIAL, Uri.parse("tel:8 (800) 550-38-38")))
+        }
+
+        binding.btnList?.setOnClickListener {
+            startActivity(Intent(this@MainActivity, ListActivity::class.java))
+        }
+
+        binding.btnGrid?.setOnClickListener {
+            startActivity(Intent(this@MainActivity, GridActivity::class.java))
         }
 
     }

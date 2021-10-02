@@ -1,10 +1,12 @@
-package com.linaverde.fefu.example
+package com.linaverde.fefu.example.ui
 
 import android.os.Bundle
 
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.linaverde.fefu.example.*
 import com.linaverde.fefu.example.databinding.ActivityFragmentBinding
+import com.linaverde.fefu.example.interfaces.FragmentActivityListener
 
 class FragmentActivity : AppCompatActivity(), FragmentActivityListener {
 

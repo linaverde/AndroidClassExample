@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".ui.MainActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -14,74 +14,105 @@
         app:layout_constraintTop_toTopOf="parent"
         app:title="@string/title_main_activity" />
 
-    <TextView
-        android:id="@+id/tvSecondActivityDescription"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="@dimen/default_margin_horizontal"
-        android:layout_marginVertical="@dimen/default_margin_vertical"
-        android:text="@string/label_second_activity"
-        android:textAlignment="center"
-        android:textColor="@color/colorDark"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/toolbar" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar">
 
-    <Button
-        android:id="@+id/btnSecondActivity"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginVertical="@dimen/default_margin_vertical"
-        android:backgroundTint="@color/colorRipple"
-        android:text="@string/action_second_activity"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tvSecondActivityDescription" />
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/tvFragmentActivityDescription"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="@dimen/default_margin_horizontal"
-        android:layout_marginVertical="@dimen/default_margin_vertical"
-        android:text="@string/label_fragment_activity"
-        android:textAlignment="center"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/btnSecondActivity" />
+            <TextView
+                android:id="@+id/tvSecondActivityDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/default_margin_horizontal"
+                android:layout_marginVertical="@dimen/default_margin_vertical"
+                android:text="@string/label_second_activity"
+                android:textAlignment="center"
+                android:textColor="@color/colorDark" />
 
-    <Button
-        android:id="@+id/btnFragmentActivity"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginVertical="@dimen/default_margin_vertical"
-        android:backgroundTint="@color/colorRipple"
-        android:text="@string/action_fragment_activity"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tvFragmentActivityDescription" />
+            <Button
+                android:id="@+id/btnSecondActivity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/default_margin_vertical"
+                android:backgroundTint="@color/colorRipple"
+                android:text="@string/action_second_activity" />
 
-    <TextView
-        android:id="@+id/tvCallIntent"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="@dimen/default_margin_horizontal"
-        android:layout_marginVertical="@dimen/default_margin_vertical"
-        android:text="@string/label_call_intent"
-        android:textAlignment="center"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/btnFragmentActivity" />
+            <TextView
+                android:id="@+id/tvFragmentActivityDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/default_margin_horizontal"
+                android:layout_marginVertical="@dimen/default_margin_vertical"
+                android:text="@string/label_fragment_activity"
+                android:textAlignment="center" />
 
-    <Button
-        android:id="@+id/btnCallIntent"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginVertical="@dimen/default_margin_vertical"
-        android:backgroundTint="@color/colorRipple"
-        android:text="@string/action_call_intent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tvCallIntent" />
+            <Button
+                android:id="@+id/btnFragmentActivity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/default_margin_vertical"
+                android:backgroundTint="@color/colorRipple"
+                android:text="@string/action_fragment_activity" />
+
+            <TextView
+                android:id="@+id/tvCallIntent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/default_margin_horizontal"
+                android:layout_marginVertical="@dimen/default_margin_vertical"
+                android:text="@string/label_call_intent"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/btnCallIntent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/default_margin_vertical"
+                android:backgroundTint="@color/colorRipple"
+                android:text="@string/action_call_intent" />
+
+            <TextView
+                android:id="@+id/tvList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/default_margin_horizontal"
+                android:layout_marginVertical="@dimen/default_margin_vertical"
+                android:text="@string/label_list"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/btnList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/default_margin_vertical"
+                android:backgroundTint="@color/colorRipple"
+                android:text="@string/action_list" />
+
+            <TextView
+                android:id="@+id/tvGrid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/default_margin_horizontal"
+                android:layout_marginVertical="@dimen/default_margin_vertical"
+                android:text="@string/label_grid"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/btnGrid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/default_margin_vertical"
+                android:backgroundTint="@color/colorRipple"
+                android:text="@string/action_grid" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </ScrollView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

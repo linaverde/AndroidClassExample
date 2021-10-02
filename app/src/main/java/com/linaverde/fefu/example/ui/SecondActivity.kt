@@ -1,8 +1,9 @@
-package com.linaverde.fefu.example
+package com.linaverde.fefu.example.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.linaverde.fefu.example.databinding.ActivitySecondBinding
+import com.linaverde.fefu.example.viewBinding
 
 class SecondActivity : AppCompatActivity() {
 

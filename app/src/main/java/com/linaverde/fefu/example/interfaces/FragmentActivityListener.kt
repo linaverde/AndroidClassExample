@@ -1,4 +1,4 @@
-package com.linaverde.fefu.example
+package com.linaverde.fefu.example.interfaces
 
 interface FragmentActivityListener {
     fun fragmentClicked()

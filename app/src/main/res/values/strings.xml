@@ -12,12 +12,43 @@
     <string name="title_fragment_activity">Третья активность</string>
     <string name="label_fragment_activity">Третья активность содержит два фрагмента с надписями</string>
     <string name="action_fragment_activity">Открыть фрагменты</string>
+    <string name="hello_left_fragment">Hello left fragment!</string>
+    <string name="hello_right_fragment">Hello right fragment!</string>
 
     <string name="label_call_intent">Неявный Intent со звонком</string>
     <string name="action_call_intent">Позвонить в фефу</string>
 
-    <string name="hello_left_fragment">Left fragment!</string>
-    <string name="hello_right_fragment">Right fragment!</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_list">Список</string>
+    <string name="label_list">Стандартный список строк</string>
+    <string name="action_list">Открыть список</string>
+
+    <string name="title_grid_activity">Таблица</string>
+    <string name="label_grid">Таблица с кастомынми элементами</string>
+    <string name="action_grid">Открыть таблицу</string>
+
+    <string-array name="label_list_values_strings">
+        <item>Раз</item>
+        <item>Два</item>
+        <item>Три</item>
+        <item>Раз</item>
+        <item>Два</item>
+        <item>Три</item>
+        <item>Раз</item>
+        <item>Два</item>
+        <item>Три</item>
+        <item>Раз</item>
+        <item>Два</item>
+        <item>Три</item>
+        <item>Раз</item>
+        <item>Два</item>
+        <item>Три</item>
+        <item>Раз</item>
+        <item>Два</item>
+        <item>Три</item>
+        <item>Раз</item>
+        <item>Два</item>
+        <item>Три</item>
+    </string-array>
+
+
 </resources>

@@ -4,20 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.SecondActivity">
+    tools:context=".ui.GridActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
-        style="@style/BaseToolbar.Back"
+        style="@style/BaseToolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
-        app:title="@string/title_second_activity" />
+        app:title="@string/title_grid_activity" />
 
-    <include
-        layout="@layout/customization_button_example"
+    <GridView
+        android:id="@+id/grid"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:numColumns="2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/toolbar" />
 
