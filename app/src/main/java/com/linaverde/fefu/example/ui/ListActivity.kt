@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.ArrayAdapter
 import com.linaverde.fefu.example.R
 import com.linaverde.fefu.example.databinding.ActivityListBinding
+import com.linaverde.fefu.example.ui.adapters.RecyclerViewAdapter
 import com.linaverde.fefu.example.viewBinding
 
 class ListActivity : AppCompatActivity() {
@@ -17,6 +18,17 @@ class ListActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
         binding.lvStrings.adapter =
-            ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, strings)
+            RecyclerViewAdapter(this::changeFragment,
+                object : RecyclerViewAdapter.MyClickListener {
+                    override fun onItemClicked(id: Int) {
+                        //действия действия
+                    }
+
+                }
+            )
+    }
+
+    private fun changeFragment(itemId: Int) {
+        //действия действия
     }
 }
